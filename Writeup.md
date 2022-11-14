@@ -79,5 +79,46 @@ https://overthewire.org/wargames
 > ssh bandit6@bandit.lab.overthewire.org\
 > password: P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
 
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/115549820/201677282-5cd3c8b9-b0d8-4e69-98d7-fcc86c5c946f.png">
+
+> /var/lib/dpkg/info/bandit7.password: z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
 
 
+## Level 7 -> 8
+
+'The password for the next level is stored in the file data.txt next to the word millionth'
+
+> ssh bandit7@bandit.lab.overthewire.org\
+> password: z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/115549820/201678794-bc769a5e-fa4c-4cfa-acad-b954e2e6eb04.png">
+
+> data.txt: TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+
+
+## Level 8 -> 9
+
+'The password for the next level is stored in the file data.txt and is the only line of text that occurs only once'
+
+> ssh bandit8@bandit.lab.overthewire.org\
+> password: TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/115549820/201682716-59f07a5f-6c6c-4a1b-994c-b824018031ff.png">
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/115549820/201682760-e64e9bac-4841-4553-87b0-0d4e6a72f06a.png">
+
+> data.txt: EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+
+
+## Level 9 -> 10
+
+'The password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.'
+
+> ssh bandit9@bandit.lab.overthewire.org
+> password: EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/115549820/201683519-3fa1440e-269e-46b0-bf2a-f32d737d5aba.png">
+
+> data.txt: G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+
+
+## Level 10 -> 11
