@@ -173,7 +173,7 @@ https://overthewire.org/wargames
 
 'The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.'
 
-> ssh bandit14@bandit.labs.overthewire.org
+> ssh bandit14@bandit.labs.overthewire.org\
 > password: fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
 <img width="515" alt="image" src="https://user-images.githubusercontent.com/115549820/201694717-3b9b79af-e5c3-4e0a-8ea3-b74ea71f36c6.png">
 
