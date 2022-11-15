@@ -284,7 +284,8 @@ https://overthewire.org/wargames
 
 'A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.'
 
-> ssh bandit23@bandit.labs.overthewire.org
+> ssh bandit23@bandit.labs.overthewire.org\
 > password: QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G
 
+**Issues with permissions and no call back to pssword file**
 
