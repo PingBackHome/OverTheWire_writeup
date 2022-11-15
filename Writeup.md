@@ -286,6 +286,26 @@ https://overthewire.org/wargames
 
 > ssh bandit23@bandit.labs.overthewire.org\
 > password: QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G
+>
+<img width="338" alt="image" src="https://user-images.githubusercontent.com/115549820/201941456-c38b7e58-1c42-470b-a0e4-49d2e5b85f4b.png">
 
-**Issues with permissions and no call back to pssword file**
+<img width="338" alt="image" src="https://user-images.githubusercontent.com/115549820/201941680-3df934fa-8833-4de1-9298-1b495f6f1b5b.png">
+
+> bandit24: VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar
+
+
+## Level 24 -> 25
+
+'A daemon is listening on port 30002 and will give you the password for bandit25 if given the password for bandit24 and a secret numeric 4-digit pincode. There is no way to retrieve the pincode except by going through all of the 10000 combinations, called brute-forcing.'
+
+> ssh bandit24@bandit.labs.overthewire.org
+> password: VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar
+
+<img width="401" alt="image" src="https://user-images.githubusercontent.com/115549820/201944952-177ec59d-6e77-4a61-8bd2-22bdb1e27afe.png">
+
+<img width="401" alt="image" src="https://user-images.githubusercontent.com/115549820/201944814-5970c482-58e2-4ee2-94a8-e3caf01545f7.png">
+
+> bandit25:p7TaowMYrmu23Ol8hiZh9UvD0O9hpx8d
+
+
 
