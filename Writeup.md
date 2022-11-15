@@ -260,7 +260,7 @@ https://overthewire.org/wargames
 
 'A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.'
 
-> ssh bandit20@bandit.labs.overthewire.org
+> ssh bandit20@bandit.labs.overthewire.org\
 > password: NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/115549820/201917608-dc957ece-546b-47f8-ad0a-3f28c787617e.png">
@@ -272,11 +272,19 @@ https://overthewire.org/wargames
 
 'A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.'
 
-> ssh bandit22@bandit.labs.overthewire.org
+> ssh bandit22@bandit.labs.overthewire.org\
 > password: WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/115549820/201920583-bc9c4c48-c779-47c3-a1ca-72fdc8c248fa.png">
 
 > bandit23: QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G
+
+
+## Level 23 -> 24
+
+'A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.'
+
+> ssh bandit23@bandit.labs.overthewire.org
+> password: QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G
 
 
