@@ -164,7 +164,9 @@ https://overthewire.org/wargames
 > ssh bandit13@bandit.labs.overthewire.org\
 > password: wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
 
-<img width="529" alt="image" src="https://user-images.githubusercontent.com/115549820/201693460-8d4cad88-e868-471e-b83f-05d5da4671c6.png"> <img width="306" alt="image" src="https://user-images.githubusercontent.com/115549820/201693622-ca35e9ae-7692-49a8-b90b-2a405cbc71ee.png">
+<img width="529" alt="image" src="https://user-images.githubusercontent.com/115549820/201693460-8d4cad88-e868-471e-b83f-05d5da4671c6.png">
+
+<img width="306" alt="image" src="https://user-images.githubusercontent.com/115549820/201693622-ca35e9ae-7692-49a8-b90b-2a405cbc71ee.png">
 
 > bandit14: fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
 
@@ -175,10 +177,75 @@ https://overthewire.org/wargames
 
 > ssh bandit14@bandit.labs.overthewire.org\
 > password: fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+
 <img width="515" alt="image" src="https://user-images.githubusercontent.com/115549820/201694717-3b9b79af-e5c3-4e0a-8ea3-b74ea71f36c6.png">
 
 > bandit15: jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
 
 
+## Level 15 -> 16
+
+'The password for the next level can be retrieved by submitting the password of the current level to port 30001 on localhost using SSL encryption.'
+
+> ssh bandit15@bandit.labs.overthewire.org\
+> password: jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+
+<img width="670" alt="image" src="https://user-images.githubusercontent.com/115549820/201870736-b79c08e5-8fe5-4eb8-8bd9-bb7e7484531b.png">
+
+> bandit16: JQttfApK4SeyHwDlI9SXGR50qclOAil1
 
 
+## Level 16 -> 17
+
+'The credentials for the next level can be retrieved by submitting the password of the current level to a port on localhost in the range 31000 to 32000. First find out which of these ports have a server listening on them. Then find out which of those speak SSL and which don’t. There is only 1 server that will give the next credentials, the others will simply send back to you whatever you send to it.'
+
+> ssh bandit16@bandit.labs.overthewire.org\
+> password: JQttfApK4SeyHwDlI9SXGR50qclOAil1
+
+<img width="401" alt="image" src="https://user-images.githubusercontent.com/115549820/201895240-fee83c41-9b45-455f-85e1-8eb5047abb5a.png">
+
+<img width="673" alt="image" src="https://user-images.githubusercontent.com/115549820/201897243-fabd998d-e5c8-4464-b976-64d721dbd2cb.png">
+
+> bandit17: privatekey
+
+
+## Level 17 -> 18
+
+'There are 2 files in the homedirectory: passwords.old and passwords.new. The password for the next level is in passwords.new and is the only line that has been changed between passwords.old and passwords.new'
+
+> ssh -i id_rsa bandit17@bandit.labs.overthewire.org -p 2220\
+> password: privatekey
+
+<img width="335" alt="image" src="https://user-images.githubusercontent.com/115549820/201899425-b58ba9d0-9974-4f01-a649-24e7cf7583f0.png">
+
+> bandit18: hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+
+
+## Level 18 -> 19
+
+'The password for the next level is stored in a file readme in the homedirectory. Unfortunately, someone has modified .bashrc to log you out when you log in with SSH.'
+
+> ssh bandit18@bandit.labs.overthewire.org -p 2220\
+> password: hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+
+<img width="428" alt="image" src="https://user-images.githubusercontent.com/115549820/201901189-95eb83c2-3d9a-44ee-b7ec-fe4e7d5e984d.png">
+
+> bandit19: awhqfNnAbc1naukrpqDYcF95h7HoMTrC
+
+
+## Level 19 -> 20
+
+'To gain access to the next level, you should use the setuid binary in the homedirectory. Execute it without arguments to find out how to use it. The password for this level can be found in the usual place (/etc/bandit_pass), after you have used the setuid binary.'
+
+> ssh bandit19@bandit.labs.overthewire.org
+> password: awhqfNnAbc1naukrpqDYcF95h7HoMTrC
+
+<img width="383" alt="image" src="https://user-images.githubusercontent.com/115549820/201906741-5955d51f-b45e-459c-b672-dbf930d9b0ca.png">
+
+
+## Level 20 -> 21
+
+'There is a setuid binary in the homedirectory that does the following: it makes a connection to localhost on the port you specify as a commandline argument. It then reads a line of text from the connection and compares it to the password in the previous level (bandit20). If the password is correct, it will transmit the password for the next level (bandit21).'
+
+> ssh bandit20@bandit.labs.overthewire.org
+> password: awhqfNnAbc1naukrpqDYcF95h7HoMTrC
