@@ -237,15 +237,46 @@ https://overthewire.org/wargames
 
 'To gain access to the next level, you should use the setuid binary in the homedirectory. Execute it without arguments to find out how to use it. The password for this level can be found in the usual place (/etc/bandit_pass), after you have used the setuid binary.'
 
-> ssh bandit19@bandit.labs.overthewire.org
+> ssh bandit19@bandit.labs.overthewire.org\
 > password: awhqfNnAbc1naukrpqDYcF95h7HoMTrC
 
 <img width="383" alt="image" src="https://user-images.githubusercontent.com/115549820/201906741-5955d51f-b45e-459c-b672-dbf930d9b0ca.png">
 
+> bandit20: VxCazJaVykI6W36BkBU0mJTCM8rR95XT
 
 ## Level 20 -> 21
 
 'There is a setuid binary in the homedirectory that does the following: it makes a connection to localhost on the port you specify as a commandline argument. It then reads a line of text from the connection and compares it to the password in the previous level (bandit20). If the password is correct, it will transmit the password for the next level (bandit21).'
 
+> ssh bandit20@bandit.labs.overthewire.org\
+> password: VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/115549820/201915634-b3e5512a-d3e8-49b8-ae7c-3b5eefa50c5d.png">
+
+> bandit21: NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
+
+
+## Level 21 -> 22
+
+'A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.'
+
 > ssh bandit20@bandit.labs.overthewire.org
-> password: awhqfNnAbc1naukrpqDYcF95h7HoMTrC
+> password: NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/115549820/201917608-dc957ece-546b-47f8-ad0a-3f28c787617e.png">
+
+> bandit22: WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff
+
+
+## Level 22 -> 23
+
+'A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.'
+
+> ssh bandit22@bandit.labs.overthewire.org
+> password: WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/115549820/201920583-bc9c4c48-c779-47c3-a1ca-72fdc8c248fa.png">
+
+> bandit23: QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G
+
+
